@@ -313,7 +313,7 @@ for more on null database Initializers.
 1. CompareSqlToSql does not check on [Stored Procedures](https://msdn.microsoft.com/en-us/data/jj593489) at all.
 *Not hard to add, but I don't need it at the moment. 
 If you want it then happy for you to do a Pull Request and add it yourself.*
-2. CompareSqlToSql does not check the [default contraint](http://www.w3schools.com/sql/sql_default.asp) on columns.
+2. CompareSqlToSql does not check the [default constraint](http://www.w3schools.com/sql/sql_default.asp) on columns.
 *Again, not hard to add but I haven't had a problem with this, although one of the testers has. 
 Again, Pull request if you want to add that.*
 3. Minor point, but EF 6 create two indexes on one end of a ZeroOrOne to Many relationships.
